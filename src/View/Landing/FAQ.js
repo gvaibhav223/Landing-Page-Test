@@ -1,11 +1,6 @@
-import React, { useState } from "react";
-import {
-  Accordion,
-  AccordionSummary,
-  Typography,
-  AccordionDetails,
-} from "@mui/material";
-import { Add, ExpandMore, Remove } from "@mui/icons-material";
+import React from "react";
+import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
+import { Add } from "@mui/icons-material";
 
 const FAQ = () => {
   const array = [1, 2, 3, 4, 5, 6];
